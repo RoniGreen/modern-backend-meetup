@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b38d1e9d-0710-45af-83fa-97f6cc2c4318" name="Changes" comment="v0">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/controller/StudentsController.java" afterDir="false" />
+    <list default="true" id="b38d1e9d-0710-45af-83fa-97f6cc2c4318" name="Changes" comment="with docker composev2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,75 +21,87 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RoniGreen&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RoniGreen/modern-backend-meetup.git&quot;,
+    &quot;accountId&quot;: &quot;27f1311a-e714-4119-bf38-2e878e50d74a&quot;
+  }
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.3348044802555554" />
-      <entry key="MS500" value="2.9570434762331055" />
-      <entry key="S2" value="4.824634171831942" />
-      <entry key="S5" value="6.768053349940615" />
-      <entry key="S10" value="12.120707617646444" />
-      <entry key="S30" value="33.8105520132503" />
-      <entry key="S60" value="63.007291506420174" />
-      <entry key="M2" value="116.61795871341927" />
-      <entry key="M5" value="241.90084800433675" />
-      <entry key="M10" value="398.0128740662833" />
-      <entry key="M15" value="515.8810320152421" />
-      <entry key="M30" value="736.7805039507626" />
-      <entry key="H1" value="952.9949766788116" />
-      <entry key="H2" value="1136.9467655520334" />
-      <entry key="H4" value="1267.6472666016373" />
-      <entry key="D1" value="1407.6475898994963" />
-      <entry key="W1" value="1435.2776830501887" />
+      <entry key="MS100" value="1.7631439263573627" />
+      <entry key="MS500" value="2.938255104574168" />
+      <entry key="S2" value="8.565103754534949" />
+      <entry key="S5" value="18.830168495531048" />
+      <entry key="S10" value="30.17981674052339" />
+      <entry key="S30" value="45.630581845136184" />
+      <entry key="S60" value="52.778362457267576" />
+      <entry key="M2" value="71.13330369610162" />
+      <entry key="M5" value="143.81669077474803" />
+      <entry key="M10" value="272.39945051981266" />
+      <entry key="M15" value="399.0733195131174" />
+      <entry key="M30" value="693.7188300851964" />
+      <entry key="H1" value="1019.3538937913044" />
+      <entry key="H2" value="1302.5168956893378" />
+      <entry key="H4" value="1504.2065337443694" />
+      <entry key="D1" value="1720.8161251155198" />
+      <entry key="W1" value="1763.671353026561" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS500" value="3.854647575395407E-242" />
+      <entry key="S2" value="4.4309430618208635E-61" />
+      <entry key="S5" value="7.221018667729703E-25" />
+      <entry key="S10" value="8.497657717118114E-13" />
+      <entry key="S30" value="9.47181218597233E-5" />
+      <entry key="S60" value="0.009732323559136493" />
+      <entry key="M2" value="0.09865253954732484" />
+      <entry key="M5" value="0.39595269911692027" />
+      <entry key="M10" value="0.6292477247610219" />
+      <entry key="M15" value="0.7343128068023406" />
+      <entry key="M30" value="0.8569205370408297" />
+      <entry key="H1" value="0.9257000254082461" />
+      <entry key="H2" value="0.9621330601368211" />
+      <entry key="H4" value="0.9808838158195984" />
+      <entry key="D1" value="0.9967882917935788" />
+      <entry key="W1" value="0.999540551748564" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.2692960720538797" />
-      <entry key="MS500" value="2.931714615776531" />
-      <entry key="S2" value="4.814759195360005" />
-      <entry key="S5" value="6.762592680776883" />
-      <entry key="S10" value="12.115872356454426" />
-      <entry key="S30" value="33.80606795413419" />
-      <entry key="S60" value="63.00311611004075" />
-      <entry key="M2" value="116.6140890378648" />
-      <entry key="M5" value="241.89758821348184" />
-      <entry key="M10" value="398.0100767780185" />
-      <entry key="M15" value="515.8785526982502" />
-      <entry key="M30" value="736.7786753482723" />
-      <entry key="H1" value="952.9937606376667" />
-      <entry key="H2" value="1136.9460214488038" />
-      <entry key="H4" value="1267.6468441840916" />
-      <entry key="D1" value="1407.6475102477161" />
-      <entry key="W1" value="1435.2776714067113" />
+      <entry key="MS100" value="1.6816140606888332" />
+      <entry key="MS500" value="2.909104615895287" />
+      <entry key="S2" value="8.543920340716648" />
+      <entry key="S5" value="18.81155816356841" />
+      <entry key="S10" value="30.164795475385812" />
+      <entry key="S30" value="45.6230321078155" />
+      <entry key="S60" value="52.78304041331859" />
+      <entry key="M2" value="71.22572081792048" />
+      <entry key="M5" value="144.20488577463385" />
+      <entry key="M10" value="273.02214343510246" />
+      <entry key="M15" value="399.8020943801835" />
+      <entry key="M30" value="694.5719097659355" />
+      <entry key="H1" value="1020.2771499360323" />
+      <entry key="H2" value="1303.4775848595775" />
+      <entry key="H4" value="1505.186616109464" />
+      <entry key="D1" value="1721.8127654393975" />
+      <entry key="W1" value="1764.670872030089" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -163,6 +176,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v0" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0" />
+    <MESSAGE value="with docker compose" />
+    <MESSAGE value="with docker composev2" />
+    <option name="LAST_COMMIT_MESSAGE" value="with docker composev2" />
   </component>
 </project>
