@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b38d1e9d-0710-45af-83fa-97f6cc2c4318" name="Changes" comment="with sprint data">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/model/StudentIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/repo/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/service/StudentService.java" afterDir="false" />
+    <list default="true" id="b38d1e9d-0710-45af-83fa-97f6cc2c4318" name="Changes" comment="25.10.26">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/handson/backend/ModernBackendApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/handson/backend/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/handson/backend/controller/StudentsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/handson/backend/model/Student$StudentBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/handson/backend/model/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/handson/backend/ModernBackendApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/handson/backend/controller/StudentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/controller/StudentsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,61 +43,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="8.445149229766405E-27" />
-      <entry key="MS500" value="1.6891294464970407E-5" />
-      <entry key="S2" value="0.2050193221153973" />
-      <entry key="S5" value="2.4539337400225505" />
-      <entry key="S10" value="7.191377719934257" />
-      <entry key="S30" value="15.869556004020602" />
-      <entry key="S60" value="19.801970801346528" />
-      <entry key="M2" value="23.291924632756754" />
-      <entry key="M5" value="35.84456714295373" />
-      <entry key="M10" value="93.88809071487093" />
-      <entry key="M15" value="181.75258863141815" />
-      <entry key="M30" value="462.818569075133" />
-      <entry key="H1" value="853.1103518730887" />
-      <entry key="H2" value="1229.7554683755877" />
-      <entry key="H4" value="1510.738842797379" />
-      <entry key="D1" value="1821.0364350047762" />
-      <entry key="W1" value="1883.3212845658827" />
+      <entry key="MS100" value="1.3950206559316887" />
+      <entry key="MS500" value="1.8304700240998053" />
+      <entry key="S2" value="1.963646606304374" />
+      <entry key="S5" value="2.722093637459028" />
+      <entry key="S10" value="5.379107112547579" />
+      <entry key="S30" value="11.499277740418952" />
+      <entry key="S60" value="14.323241469552885" />
+      <entry key="M2" value="16.08964657256391" />
+      <entry key="M5" value="20.142415749362122" />
+      <entry key="M10" value="39.867242837689275" />
+      <entry key="M15" value="82.35790703391672" />
+      <entry key="M30" value="285.97447306423567" />
+      <entry key="H1" value="667.4573579308927" />
+      <entry key="H2" value="1097.1280000085894" />
+      <entry key="H4" value="1442.8037043454635" />
+      <entry key="D1" value="1842.6706880793538" />
+      <entry key="W1" value="1924.8514952236428" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000026098246" />
-      <entry key="S30" value="1.001376798678882" />
-      <entry key="S60" value="1.0371056120548099" />
-      <entry key="M2" value="1.1932487888554506" />
-      <entry key="M5" value="1.57929503400995" />
-      <entry key="M10" value="2.0469785905822793" />
-      <entry key="M15" value="2.3910708106870624" />
-      <entry key="M30" value="2.9707201368684704" />
-      <entry key="H1" value="3.409241541875036" />
-      <entry key="H2" value="3.6822768056079265" />
-      <entry key="H4" value="3.835071584307939" />
-      <entry key="D1" value="3.9716249560093404" />
-      <entry key="W1" value="3.9959240963641944" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.653138457366665E-164" />
+      <entry key="S5" value="3.071310267674104E-66" />
+      <entry key="S10" value="1.75251541153683E-33" />
+      <entry key="S30" value="1.2056587257641151E-11" />
+      <entry key="S60" value="3.482858957649053E-6" />
+      <entry key="M2" value="0.001984112564890432" />
+      <entry key="M5" value="0.12078685926279581" />
+      <entry key="M10" value="0.6096635874659198" />
+      <entry key="M15" value="1.1338975099665776" />
+      <entry key="M30" value="2.2665951328485745" />
+      <entry key="H1" value="3.319931766049771" />
+      <entry key="H2" value="4.059428454112955" />
+      <entry key="H4" value="4.501044971614918" />
+      <entry key="D1" value="4.912514435330501" />
+      <entry key="W1" value="4.987391279086699" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="5.009192798864296E-23" />
-      <entry key="MS500" value="5.13944759768059E-5" />
-      <entry key="S2" value="0.28124191974228074" />
-      <entry key="S5" value="2.8095912117882293" />
-      <entry key="S10" value="7.78622841476139" />
-      <entry key="S30" value="16.71059892318457" />
-      <entry key="S60" value="20.749472694010915" />
-      <entry key="M2" value="24.426176775354914" />
-      <entry key="M5" value="37.38751592601873" />
-      <entry key="M10" value="95.91070906163394" />
-      <entry key="M15" value="184.12459610858005" />
-      <entry key="M30" value="465.77720004884037" />
-      <entry key="H1" value="856.5123762286175" />
-      <entry key="H2" value="1233.4336788655069" />
-      <entry key="H4" value="1514.57172655682" />
-      <entry key="D1" value="1825.007668359301" />
-      <entry key="W1" value="1887.3171519650987" />
+      <entry key="MS100" value="1.3141650116008845" />
+      <entry key="MS500" value="1.8011119279042005" />
+      <entry key="S2" value="1.9553197658698596" />
+      <entry key="S5" value="2.7179058043654165" />
+      <entry key="S10" value="5.37545606924727" />
+      <entry key="S30" value="11.49680033002246" />
+      <entry key="S60" value="14.321708020725737" />
+      <entry key="M2" value="16.090727454740595" />
+      <entry key="M5" value="20.26125819516536" />
+      <entry key="M10" value="40.47168041199321" />
+      <entry key="M15" value="83.4848980358707" />
+      <entry key="M30" value="288.23354951143784" />
+      <entry key="H1" value="670.7713853550895" />
+      <entry key="H2" value="1101.1836121708754" />
+      <entry key="H4" value="1447.3025504452346" />
+      <entry key="D1" value="1847.5827858945315" />
+      <entry key="W1" value="1929.838825593483" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -148,6 +139,27 @@
       <recent name="C:\Users\User\project\modern_backend\modern-backend-meetup\src" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="ModernBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.handson.backend.ModernBackendApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.handson.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ModernBackendApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -185,6 +197,7 @@
     <MESSAGE value="with docker compose" />
     <MESSAGE value="with docker composev2" />
     <MESSAGE value="with sprint data" />
-    <option name="LAST_COMMIT_MESSAGE" value="with sprint data" />
+    <MESSAGE value="25.10.26" />
+    <option name="LAST_COMMIT_MESSAGE" value="25.10.26" />
   </component>
 </project>
