@@ -4,22 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b38d1e9d-0710-45af-83fa-97f6cc2c4318" name="Changes" comment="25.10.26:3.15v2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/model/Pagination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/model/PaginationAndList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/model/SortDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/model/StudentOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/util/FPS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/util/FPSCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/util/FPSField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/util/Strings.java" afterDir="false" />
+    <list default="true" id="b38d1e9d-0710-45af-83fa-97f6cc2c4318" name="Changes" comment="fps">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/controller/StudentsGradesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/model/GradeIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/model/StudentGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/model/StudentSortField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/repo/StudentGradeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/service/StudentGradeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/handson/backend/controller/StudentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/controller/StudentsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/handson/backend/repo/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/repo/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/handson/backend/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/handson/backend/model/StudentIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/model/StudentIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/handson/backend/model/StudentOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/model/StudentOut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/handson/backend/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/handson/backend/util/FPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/util/FPS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/handson/backend/util/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/handson/backend/util/Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/handson/backend/controller/StudentsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/handson/backend/controller/StudentsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/handson/backend/repo/StudentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/handson/backend/repo/StudentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/handson/backend/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/handson/backend/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/handson/backend/model/Student$StudentBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/handson/backend/model/Student$StudentBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/handson/backend/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/handson/backend/model/Student.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,61 +59,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.3835453081603402" />
-      <entry key="MS500" value="3.6504424021387782" />
-      <entry key="S2" value="9.307029971923736" />
-      <entry key="S5" value="20.163407746768637" />
-      <entry key="S10" value="34.578190287934504" />
-      <entry key="S30" value="57.09733172990046" />
-      <entry key="S60" value="66.03582766925214" />
-      <entry key="M2" value="71.23484940858371" />
-      <entry key="M5" value="74.62183279295412" />
-      <entry key="M10" value="75.86341080575188" />
-      <entry key="M15" value="76.8036798140154" />
-      <entry key="M30" value="86.11977836281432" />
-      <entry key="H1" value="173.4036817485164" />
-      <entry key="H2" value="485.8219803447607" />
-      <entry key="H4" value="964.0521972845079" />
-      <entry key="D1" value="1810.898002693232" />
-      <entry key="W1" value="2026.4285760153016" />
+      <entry key="MS100" value="1.7508720983332666" />
+      <entry key="MS500" value="4.33145850671566" />
+      <entry key="S2" value="10.95209763504414" />
+      <entry key="S5" value="15.357881027672155" />
+      <entry key="S10" value="17.456999658362633" />
+      <entry key="S30" value="19.09690253241333" />
+      <entry key="S60" value="19.565455347681237" />
+      <entry key="M2" value="20.943756125506695" />
+      <entry key="M5" value="32.03749924863138" />
+      <entry key="M10" value="52.03168524235521" />
+      <entry key="M15" value="81.09365568085535" />
+      <entry key="M30" value="200.78929226585407" />
+      <entry key="H1" value="408.8889654261582" />
+      <entry key="H2" value="737.2841062286823" />
+      <entry key="H4" value="1264.582162652563" />
+      <entry key="D1" value="2489.7909169355153" />
+      <entry key="W1" value="2859.4901775152775" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="6.670265815861351E-87" />
-      <entry key="MS500" value="5.818735663027735E-18" />
-      <entry key="S2" value="4.911420934782214E-5" />
-      <entry key="S5" value="0.018900916470719467" />
-      <entry key="S10" value="0.13748060398005024" />
-      <entry key="S30" value="0.5161157873446028" />
-      <entry key="S60" value="0.7184129668454494" />
-      <entry key="M2" value="0.8485802432388823" />
-      <entry key="M5" value="0.9987986418973793" />
-      <entry key="M10" value="1.218072975364419" />
-      <entry key="M15" value="1.375918749048537" />
-      <entry key="M30" value="1.6523709527783235" />
-      <entry key="H1" value="2.1883140184376066" />
-      <entry key="H2" value="3.2970217284163774" />
-      <entry key="H4" value="4.594079768795893" />
-      <entry key="D1" value="6.4880034594941804" />
-      <entry key="W1" value="6.923540952211426" />
+      <entry key="MS100" value="9.293836580879336E-24" />
+      <entry key="MS500" value="2.475363633963142E-5" />
+      <entry key="S2" value="0.07053582520956375" />
+      <entry key="S5" value="0.3462293661188482" />
+      <entry key="S10" value="0.5884125815436375" />
+      <entry key="S30" value="0.8379678880543455" />
+      <entry key="S60" value="0.9157445841770939" />
+      <entry key="M2" value="0.9751745843152739" />
+      <entry key="M5" value="1.1847897489015444" />
+      <entry key="M10" value="1.4475829990743658" />
+      <entry key="M15" value="1.6327839972204352" />
+      <entry key="M30" value="2.214859914361266" />
+      <entry key="H1" value="3.420611980405264" />
+      <entry key="H2" value="5.329655754174976" />
+      <entry key="H4" value="7.666146907765566" />
+      <entry key="D1" value="11.743914384957373" />
+      <entry key="W1" value="12.808157548741823" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.317406718910387" />
-      <entry key="MS500" value="3.615786757588321" />
-      <entry key="S2" value="9.285264481673464" />
-      <entry key="S5" value="20.15379071771904" />
-      <entry key="S10" value="34.66080435906811" />
-      <entry key="S30" value="57.551637595135766" />
-      <entry key="S60" value="66.71137638704806" />
-      <entry key="M2" value="72.05811499703964" />
-      <entry key="M5" value="75.60904508767874" />
-      <entry key="M10" value="77.07489894345953" />
-      <entry key="M15" value="78.17484507882018" />
-      <entry key="M30" value="87.76936815407147" />
-      <entry key="H1" value="175.58982674365984" />
-      <entry key="H2" value="489.1169053683006" />
-      <entry key="H4" value="968.6445821079401" />
-      <entry key="D1" value="1817.3855559389283" />
-      <entry key="W1" value="2033.3520469399518" />
+      <entry key="MS100" value="1.6982349003797113" />
+      <entry key="MS500" value="4.303714076505388" />
+      <entry key="S2" value="10.94584826862634" />
+      <entry key="S5" value="15.518913318495834" />
+      <entry key="S10" value="17.865146854605406" />
+      <entry key="S30" value="19.84009370764193" />
+      <entry key="S60" value="20.42800748419583" />
+      <entry key="M2" value="21.890232686131053" />
+      <entry key="M5" value="33.20828196332756" />
+      <entry key="M10" value="53.470700304161966" />
+      <entry key="M15" value="82.71997315720542" />
+      <entry key="M30" value="202.9997783053438" />
+      <entry key="H1" value="412.3062474047936" />
+      <entry key="H2" value="742.6110340097985" />
+      <entry key="H4" value="1272.24613783714" />
+      <entry key="D1" value="2501.534192154996" />
+      <entry key="W1" value="2872.2982325926605" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -213,6 +216,7 @@
     <MESSAGE value="25.10.26" />
     <MESSAGE value="25.10.26:3.15" />
     <MESSAGE value="25.10.26:3.15v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="25.10.26:3.15v2" />
+    <MESSAGE value="fps" />
+    <option name="LAST_COMMIT_MESSAGE" value="fps" />
   </component>
 </project>

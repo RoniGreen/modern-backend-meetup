@@ -7,8 +7,8 @@ import com.handson.backend.model.Pagination;
 import com.handson.backend.model.PaginationAndList;
 import com.handson.backend.model.SortDirection;
 
-import javax.persistence.EntityManager;
-import javax.persistence.Query;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.Query;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.sql.Timestamp;
@@ -45,7 +45,7 @@ public class FPS {
             }
         });
         List rows =  qrySelect.getResultList();
-        BigInteger total = (BigInteger) qryCount.getSingleResult();
+        Number total = (Number) qryCount.getSingleResult();
         return PaginationAndList.of(Pagination.of(page, (total.intValue() / count) + 1, total.intValue()) ,rows);
     }
 

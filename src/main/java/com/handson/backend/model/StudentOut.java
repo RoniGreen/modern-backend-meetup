@@ -24,4 +24,6 @@ public class StudentOut {
     private Double graduationscore;
     private String phone;
     private String profilepicture;
+    private Double avgscore;
 }
+
