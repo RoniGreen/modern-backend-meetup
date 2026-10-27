@@ -6,11 +6,7 @@ import com.handson.backend.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
@@ -22,6 +18,11 @@ public class StudentsController {
     @Autowired
     StudentService studentService;
 
+    @RequestMapping(value = "/highSat", method = RequestMethod.GET)
+    public ResponseEntity<?> getHighSatStudents(@RequestParam Integer sat)
+    {
+        return new ResponseEntity<>(studentService.getStudentWithSatHigherThan(sat), HttpStatus.OK);
+    }
     @RequestMapping(value = "", method = RequestMethod.GET)
     public ResponseEntity<?> getAllStudents()
     {
@@ -39,7 +40,7 @@ public class StudentsController {
     {
         Student student = studentIn.toStudent();
         student = studentService.save(student);
-        return new ResponseEntity<>(student, HttpStatus.OK);
+        return new ResponseEntity<>(student, HttpStatus.CREATED);
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.PUT)
